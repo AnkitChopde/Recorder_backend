@@ -1,5 +1,5 @@
 const express = require("express");
-const audioModel = require("../models/audios.js");
+const audioModel = require("../models/audios")
 const audioRouter = express.Router();
 
 audioRouter.post('/add',async(req,res)=>{
